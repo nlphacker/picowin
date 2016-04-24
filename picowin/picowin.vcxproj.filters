@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c08611c6-4fe1-4a5d-bda6-974c6bc1f288}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="picowin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picoacph.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picoapi.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picobase.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picocep.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picoctrl.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picodata.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picodbg.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picoextapi.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picofftsg.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picokdbg.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picokdt.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picokfst.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picoklex.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picoknow.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picokpdf.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picokpr.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picoktab.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picoos.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picopal.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picopam.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picopr.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picorsrc.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picosa.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picosig.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picosig2.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picospho.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picotok.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picotrns.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pico\lib\picowa.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
